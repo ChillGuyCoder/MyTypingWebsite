@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <!-- Display the current sentence -->
+        <p id="textToType">The quick brown fox jumps over the lazy dog.</p>
+        
+        <!-- Input box where the user types -->
+        <input type="text" id="userInput" placeholder="Start typing here..." />
+        
+        <!-- Button to check typing -->
+        <button onclick="checkTyping()">Check Typing</button>
+        
+        <!-- Display the timer -->
+        <p id="timer">Time: 0s</p>
+        
+        <!-- Display result after typing -->
+        <p id="result"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
